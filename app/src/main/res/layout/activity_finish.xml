@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FinishActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_finish_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorWhite"
+        android:theme="@style/ToolbarTheme"
+        app:titleTextColor="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/end"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_horizontal"
+            android:textSize="35sp"
+            android:layout_marginTop="40dp"/>
+
+        <LinearLayout
+            android:id="@+id/ll_start"
+            android:layout_width="@dimen/start_button_size"
+            android:layout_height="@dimen/start_button_size"
+            android:layout_marginTop="@dimen/start_button_margin_top"
+            android:gravity="center_horizontal"
+            android:background="@drawable/item_ripple_effect">
+
+            <ImageView
+                android:layout_marginTop="45dp"
+                android:background="@color/colorWhite"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_action_done"
+                android:layout_gravity="top"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Congratulations!"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You have finished the workout!"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@color/colorAccent"
+            android:text="@string/finish"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

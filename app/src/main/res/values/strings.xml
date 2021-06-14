@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">7Minutes Workout</string>
+    <string name="image">Exercise Image</string>
+    <string name="str_start">Start</string>
+    <string name="upcoming_exercise">UPCOMING EXERCISE :</string>
+    <string name="exercise_name">Exercise Name</string>
+    <string name="end">END</string>
+    <string name="finish">Finish</string>
+    <string name="metric_units">METRIC UNITS</string>
+    <string name="us_units">US UNITS</string>
+    <string name="calculate">CALCULATE</string>
+</resources>
